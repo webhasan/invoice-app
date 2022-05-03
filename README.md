@@ -8,5 +8,5 @@ Before run the app you need to install all required dependency using `npm i`
 
 To run app as dev mood use command `npm run dev` or product `npm run build` and `npm start`
 
-Demo (Video): 
+[Demo (Video):](https://www.loom.com/share/a934bf9f7e0041229fd2345683bd395c)
 
