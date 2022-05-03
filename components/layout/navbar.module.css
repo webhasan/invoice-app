@@ -1,0 +1,29 @@
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 10px;
+    line-height: 1em;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.avatar {
+    display: flex !important;
+    align-items: center;
+}
+
+.avatar svg {
+    margin-right: 3px;
+}

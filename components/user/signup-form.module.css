@@ -1,0 +1,15 @@
+.form-wrap h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.action {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-wrap form>p:nth-last-child(2) {
+    margin-top: -15px;
+}

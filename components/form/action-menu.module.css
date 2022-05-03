@@ -1,0 +1,65 @@
+.action-menu {
+    position: relative;
+    text-align: center;
+    line-height: 1em;
+}
+
+.dropdown-toggle {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.children {
+    background: #ddd;
+    border: 1px solid #f1f1f1;
+    min-width: 150px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 999;
+}
+
+.children:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #4CAF50;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transform: translate(-50%, 0);
+}
+
+.children button {
+    display: block;
+    cursor: pointer;
+}
+
+.children button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all .3s;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+.children button:last-child {
+    border: none;
+}
+
+
+.children button:hover {
+    background-color: #358d38;
+}

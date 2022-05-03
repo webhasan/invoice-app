@@ -1,0 +1,31 @@
+.pagination {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: 50px;
+}
+
+.pagination li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #4CAF50;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+.pagination li:hover {
+    background-color: #358d38;
+}
+
+.pagination li.current {
+    pointer-events: none;
+    background-color: #4caf4fa4;
+}

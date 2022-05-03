@@ -1,0 +1,17 @@
+.form-action input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all .3s;
+    border-radius: 2px;
+}
+
+.form-action input[type="submit"]:hover {
+    background-color: #358d38;
+}

@@ -1,0 +1,11 @@
+.form-wrap h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.action {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

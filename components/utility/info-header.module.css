@@ -1,0 +1,16 @@
+.info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .info-header h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .info-header button {
+    margin-left: 5px;
+  }
+  

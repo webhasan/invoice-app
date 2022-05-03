@@ -1,0 +1,50 @@
+.form-control {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form-control input {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    color: #000;
+    border: 1px solid #ddd;
+    display: block;
+    height: 40px;
+    outline-width: 1px;
+}
+
+.form-control input:focus {
+    outline: none;
+    border: 1px solid gray;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.error {
+    color: red;
+    display: block;
+    font-size: .8em;
+}
+
+.input-wrap {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    display: block;
+}
+
+.password-toggler {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    transform: translate(0,-50%);
+    line-height: 1em;
+}
+
+
+
